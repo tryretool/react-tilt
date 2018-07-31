@@ -208,7 +208,8 @@ var Tilt = function (_Component) {
           className: this.props.className,
           onMouseEnter: this.onMouseEnter,
           onMouseMove: this.onMouseMove,
-          onMouseLeave: this.onMouseLeave
+          onMouseLeave: this.onMouseLeave,
+          onClick: this.props.onClick
         },
         this.props.children
       );
